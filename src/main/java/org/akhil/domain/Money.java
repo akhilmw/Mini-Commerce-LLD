@@ -2,7 +2,7 @@ package org.akhil.domain;
 
 public class Money {
 
-    private final long amountMinor;
+    private long amountMinor;
     private final String currency;
 
 
