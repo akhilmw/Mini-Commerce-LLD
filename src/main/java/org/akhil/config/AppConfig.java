@@ -19,9 +19,9 @@ public class AppConfig {
     }
 
     public static AppConfig getInstance() {
-        if (appConfig == null) {
+        if (appConfig == null) { // performance check : skip if obj is there
             synchronized (AppConfig.class) {
-                if (appConfig == null) {
+                if (appConfig == null) {  // to ensure that multiple objs are not created for multiple threads.
                     appConfig = new AppConfig();
                 }
             }
