@@ -1,9 +1,6 @@
-package org.akhil.pricing;
+package org.akhil.pricing.coupon;
 
 import org.akhil.domain.Money;
-
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.Map;
 
 public class CouponRegistry {

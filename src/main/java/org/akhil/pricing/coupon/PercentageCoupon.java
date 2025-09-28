@@ -1,4 +1,4 @@
-package org.akhil.pricing;
+package org.akhil.pricing.coupon;
 
 import org.akhil.domain.Money;
 
